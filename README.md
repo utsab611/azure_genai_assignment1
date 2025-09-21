@@ -137,4 +137,9 @@ curl -sS "$AZURE_OPENAI_ENDPOINT/openai/deployments/$AZURE_OPENAI_DEPLOYMENT/cha
 
 ---
 Just run the note book for ML flow set up
+ if __name__ == "__main__":
+    #prompt_path="prompts:/utsab-assignment1-prompttemplate/1"
+    result = analyze_sentiment("Microsoft")--> Here u can use company name
+    
+    print(json.dumps(result, indent=2))
 
